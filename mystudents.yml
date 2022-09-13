@@ -1,0 +1,15 @@
+---
+- mystudents:
+  - name: anil
+    phone: 989898000
+    address:
+      doorno: 343
+      street: 334
+
+
+  - name: venil
+    phone: 4500440000
+    address:
+      doorno: 33
+      street: 333
+    
