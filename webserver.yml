@@ -23,7 +23,7 @@
     when: ansible_os_family=="RedHat"
 
   - name: I want to start webserver on RedHat node
-    yum:
+    service:
       name: httpd
-      got: started
+      state: started
     when: ansible_os_family=="RedHat"
