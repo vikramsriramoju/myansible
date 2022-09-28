@@ -25,5 +25,5 @@
   - name: I want to start webserver on RedHat node
     yum:
       name: httpd
-      state: started
+      got: started
     when: ansible_os_family=="RedHat"
