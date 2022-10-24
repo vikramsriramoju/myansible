@@ -2,12 +2,12 @@
 172.31.93.93
 172.31.29.117
 
-#example
+
 [myApplication_servers]
 172.31.93.16
 172.31.29.11
 
-#example
+
 [myDB_servers]
 172.31.93.164
 172.31.29.111
