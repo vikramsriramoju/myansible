@@ -7,12 +7,12 @@
       path: /home/ubuntu/mytestfile
       state: touch
 
-  - name: remove a file
-    file:
-      path: /home/ubuntu/mytestfile
-      state: absent
-
   - name: create a folder
     file:
       path: /home/ubuntu/mytestfolder
       state: directory       
+
+  - name: copy a file form master to slave
+    copy:
+      src: my2ndfile.txt
+      dest: /home/ubuntu/mytestfolder
