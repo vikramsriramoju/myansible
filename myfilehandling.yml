@@ -11,5 +11,8 @@
     file:
       path: /home/ubuntu/mytestfile
       state: absent
-      
-      
+
+  - name: create a folder
+    file:
+      path: /home/ubuntu/mytestfolder
+      state: directory       
