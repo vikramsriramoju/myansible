@@ -1,9 +1,0 @@
-[mywebservers]
-172.31.93.93
-172.31.29.117
-
-[mywebserver:vars]
-mywebpackonubuntu=apache2
-mywebpackonredhat=httpd
-myjavapackonubuntu=openjdk-8-jre
-myjavapackonRedHat=java-1.8.0-openjdk
