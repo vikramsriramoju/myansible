@@ -6,8 +6,10 @@
     file:
       path: /home/ubuntu/mytestfile
       state: touch
+
   - name: remove a file
     file:
       path: /home/ubuntu/mytestfile
-      state: remove
+      state: absent
+      
       
